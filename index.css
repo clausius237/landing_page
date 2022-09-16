@@ -200,6 +200,7 @@ body{
     width: 100vw;
     height: 100vh;
     flex-direction: column;
+    padding-bottom: 800px;
    }
    .header-one .logo-topic ul{
     display: none;
@@ -208,17 +209,16 @@ body{
     padding-left: 35%;
    }
    .awe{
-    border: 2px solid #fff;
     height: 100vh;
     width: 60%;
     display: flex;
     flex-wrap: wrap;
+    padding: 100px 0;
     
    }
    .awe .awesome{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     gap: none;
     align-items: center;
     justify-content: center;
@@ -234,6 +234,49 @@ body{
     height: 5px;
     display: flex;
     flex-grow: 1;
-    border: 1px solid orange;
+    margin-top: 10px;
+   }
+   .awe .awesome button{
+    width: 200px;
+   }
+   .header-two{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 700px;
+   }
+   .header-two .boxes{
+    display: flex;
+    flex-direction: column;
+   }
+   .header-two .boxes .empty{
+    padding: 35px 3px;
+    border: 2px solid #3882f6;
+   }
+   .header-two .inform p{
+    font-size: 20px;
+   }
+   .header-three{
+    margin-top: 50px;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 0;
+   }
+   .header-four .call .last-call p{
+    font-size: 12px;
+
+   }
+   .header-four .call .last-call {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .header-four .call .last-call .up a{
+    font-size: 12px;
+    padding: 1px 5px;
+    border: 1px solid #fff;
    }
 }
