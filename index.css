@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.header-one{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #1f2937;
+    height: 55vh;
+    padding-bottom: 40px;
+}
+.header-one .logo-topic{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 70px;
+}
+.logo-topic ul{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-topic ul li{
+    list-style: none;
+}
+.logo-topic ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo-topic .logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+.awe{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 70%;
+}
+.awe .awesome h1{
+    font-size: 40px;
+}
+.awe .awesome p{
+    color: gray;
+}
+.awe .awesome button{
+    padding: 1px 15px;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 25%;
+}
+.awe .awesome{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.awe .basis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+}
+.header-two{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 70%;
+}
+.inform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inform p{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    word-spacing: 15px;
+}
+.boxes{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* gap: 20px; */
+}
+.empty{
+    padding: 80px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-three{
+    width: 100%;
+    height: 50%;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note{
+    width: 75%;
+    margin: 0 auto;
+    text-align: start;
+}
+.notice{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.notice p{
+    font-weight: 700;
+}
+.header-four{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-four .call{
+    width: 90%;
+    height: 50%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-four .call .last-call{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+}
+.header-four .call .last-call p span{
+    font-weight: 600;
+    word-spacing: 5px;
+}
+.up a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1px 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.1s;
+}
+.up a:hover{
+    background-color: #ffffff55;
+    color: #000;
+    border: none;
+}
+.header-five{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    color: #fff;
+    background-color: #1f2937;
+}
+.header-five p{
+    word-spacing: 5px;
+    font-weight: 500;
+}
+@media all and (max-width:700px){
+   .header-one{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+   }
+   .header-one .logo-topic ul{
+    display: none;
+   }
+   .logo-topic{
+    padding-left: 35%;
+   }
+   .awe{
+    border: 2px solid #fff;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+   .awe .awesome{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    gap: none;
+    align-items: center;
+    justify-content: center;
+   }
+   .awe .awesome p{
+    text-align: start;
+   }
+   .awe .awesome h1{
+    font-size: 20px
+   }
+   .basis{
+    width: 20%;
+    height: 5px;
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid orange;
+   }
+}
